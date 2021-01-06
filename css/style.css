@@ -199,8 +199,6 @@ header nav ul li {
 @media screen and (min-width: 768px) {
     header {
         grid-template-columns: repeat(3, 1fr);
-        position: sticky;
-        top: 0;
     }
     header div:first-child {
         order: 1;
@@ -281,7 +279,7 @@ section.unete div > p {
 @media screen and (min-width: 590px) {
     .sesiones-por-club nav {
         position: sticky;
-        top: calc(60px + 3rem);
+        top: 1rem;
     }
 }
 .sesiones-por-club h2 {
@@ -309,6 +307,8 @@ section.unete div > p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 300px;
+    margin: auto;
 }
 .sesiones-por-club figure img {
     vertical-align: bottom;
